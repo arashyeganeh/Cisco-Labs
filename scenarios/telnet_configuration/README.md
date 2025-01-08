@@ -8,8 +8,6 @@
 
 * Connect to the Cisco device using Telnet
 
-[Download .pkt](/Enable_Telnet_on_a_Router.pkt)
-
 **Router**
 
 ```bash
