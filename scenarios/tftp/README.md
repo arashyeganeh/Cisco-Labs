@@ -33,24 +33,10 @@ c:\> ipconfig 192.168.1.2 255.255.255.0 192.168.1.1
 
 ```cmd
 > enable
-# copy tftp: flash:
+# copy tftp: running-config
 Address or name of remote host []? 192.168.1.2
 Source filename []? my-config
 Destination file name [my-config]? // Press enter if you don't want rename file
+# write
 # exit
-```
-
-To ensure your configuration file has been downloaded to the Cisco device, use the following command: `#show flash`
-
-
-```cmd
-# show flash
-System flash directory:
-File  Length   Name/status
-  3   486899872isr4300-universalk9.16.06.04.SPA.bin
-  4   659      my-config
-  2   28282    sigdef-category.xml
-  1   227537   sigdef-default.xml
-[487156350 bytes used, 2761893250 available, 3249049600 total]
-3.17338e+06K bytes of processor board System flash (Read/Write)
 ```
