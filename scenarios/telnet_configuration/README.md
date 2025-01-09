@@ -17,7 +17,7 @@
 (config-if)# ip address 192.168.1.1 255.255.255 0
 (config-if)# no shutdown
 (config-if)# exit
-(config)# Line vty 0
+(config)# line vty 0
 (config-line)# transport input telnet
 (config-line)# password p@ssw0rd
 (config-line)# exit
@@ -29,7 +29,7 @@
 
 ```cmd
 c:\> ipconfig 192.168.1.2 255.255.255.0 192.168.1.1
-c:\> telnet 192.168.1.2 /* The password is pa@ssw0rd */
+c:\> telnet 192.168.1.1 /* The password is pa@ssw0rd */
 ```
 
 
